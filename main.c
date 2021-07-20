@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    printf("Fuck you.");
-    return 0;
-}
+    printf("\x46"
+           "u\143k\x20"
+           "y\157u\x2E"
+           "");
+    return (0x0000000000000000 + 0x0000000000000200 + 0x0000000000000800 - 0x0000000000000A00);
+};
